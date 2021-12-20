@@ -49,7 +49,7 @@ function getToken(url, clientID, clientSecret) {
             };
           
             }
-           
+            socket.send(JSON.stringify(msg2));
             }
           
         
